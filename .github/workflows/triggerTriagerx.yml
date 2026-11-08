@@ -1,10 +1,11 @@
 name: Run when "triagerx" is mentioned in an issue comment
 run-name: Triagerx Trigger
 
-on:
-  issue_comment:
-      types: [created]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issue_comment:
+#       types: [created]
+# 
 jobs:
   triagerx_trigger:
     runs-on: ubuntu-latest

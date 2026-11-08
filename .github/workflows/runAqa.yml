@@ -21,9 +21,10 @@
 ###############################################################################/
 
 name: "PR Comment Build Action for openj9"
-on:
-  issue_comment:
-    types: [created]
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issue_comment:
+#     types: [created]
 jobs:
   parseComment:
     runs-on: ubuntu-latest

@@ -21,9 +21,10 @@
 ###############################################################################/
 
 name: "Auto test PR"
-on:
-  issue_comment:
-    types: [created]
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issue_comment:
+#     types: [created]
 jobs:
   autoTestPR:
     runs-on: ubuntu-latest

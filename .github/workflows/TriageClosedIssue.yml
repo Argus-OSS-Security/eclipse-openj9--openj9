@@ -1,10 +1,11 @@
 name: Triager on Closed issues
 run-name: TriagerX for closed Issue
 
-on:
-  issues:
-    types: [closed]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   issues:
+#     types: [closed]
+# 
 jobs:
   issue_closed:
     name: Issue Closed

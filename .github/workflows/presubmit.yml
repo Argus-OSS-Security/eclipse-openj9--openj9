@@ -22,7 +22,8 @@
 
 name: Linter
 
-on: workflow_dispatch
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: workflow_dispatch
 # on:
 #   pull_request:
 #     types: [opened, synchronize, reopened, ready_for_review]
